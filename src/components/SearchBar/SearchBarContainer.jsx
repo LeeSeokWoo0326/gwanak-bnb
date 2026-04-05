@@ -12,12 +12,12 @@ function SearchBarContainer(){
 
     useEffect(()=>{
         const handleClickOutside = (event) => {
-            if(containerRef.current && !containerRef.current.contains(event)){
+            if(containerRef.current && !containerRef.current.contains(event.target)){
                 setActiveField(null);
             }
-            document.addEventListener('mousedown', handleClickOutside);
-            return () => document.removeEventListener('mousedown', handleClickOutside);
-        }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
     return(
