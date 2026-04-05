@@ -6,7 +6,7 @@ function Header(){
         <header className='header'>
             <div className='header-top'>
                 <div className = 'header-logo'>
-
+                    <span className='logo-text'>gwanakbnb</span>
                 </div>
 
             </div>
