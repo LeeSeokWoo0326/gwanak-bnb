@@ -3,6 +3,7 @@
   align-items: center;
   background-color: #ebebeb;
   border-radius: 32px;
-  max-width: 850px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
 }

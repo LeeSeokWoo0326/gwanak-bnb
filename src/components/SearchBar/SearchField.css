@@ -18,14 +18,14 @@
 
 .search-field-label {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   color: #222;
   padding-bottom: 2px;
 }
 
 .search-field-value {
-  font-size: 14px;
+  font-size: 10px;
   color: #222;
 }
 
